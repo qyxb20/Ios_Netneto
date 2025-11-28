@@ -1,0 +1,6 @@
+module Pods_Netneto {
+  umbrella header "Pods-Netneto-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,19 @@
+"MJRefreshHeaderIdleText" = "スクロールダウンして更新";
+"MJRefreshHeaderPullingText" = "離すとすぐリフレッシュ";
+"MJRefreshHeaderRefreshingText" = "データ更新中...";
+
+"MJRefreshTrailerIdleText" = "スワイプして詳細を表示";
+"MJRefreshTrailerPullingText" = "離して詳細を表示";
+
+"MJRefreshAutoFooterIdleText" = "クリックまたは引き上げてさらに更新";
+"MJRefreshAutoFooterRefreshingText" = "データをさらに更新中...";
+"MJRefreshAutoFooterNoMoreDataText" = "すべてのデータを更新完了";
+
+"MJRefreshBackFooterIdleText" = "上に引っ張ってさらに更新";
+"MJRefreshBackFooterPullingText" = "離してすぐにさらに読み込む";
+"MJRefreshBackFooterRefreshingText" = "データをさらに更新中...";
+"MJRefreshBackFooterNoMoreDataText" = "すべてのデータを更新完了";
+
+"MJRefreshHeaderLastTimeText" = "最後の更新：";
+"MJRefreshHeaderDateTodayText" = "今日";
+"MJRefreshHeaderNoneLastDateText" = "記録なし";

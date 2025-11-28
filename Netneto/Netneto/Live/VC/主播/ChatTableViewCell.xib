@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ChatTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="38"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="38"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjL-6c-zCa">
+                        <rect key="frame" x="0.0" y="0.0" width="59.333333333333336" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djv-PY-8tS">
+                                <rect key="frame" x="12" y="5" width="35.333333333333336" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="djv-PY-8tS" secondAttribute="bottom" constant="5" id="Sz6-R8-n6t"/>
+                            <constraint firstItem="djv-PY-8tS" firstAttribute="top" secondItem="cjL-6c-zCa" secondAttribute="top" constant="5" id="THa-rq-dMk"/>
+                            <constraint firstItem="djv-PY-8tS" firstAttribute="leading" secondItem="cjL-6c-zCa" secondAttribute="leading" constant="12" id="l8Q-Yn-tk3"/>
+                            <constraint firstAttribute="trailing" secondItem="djv-PY-8tS" secondAttribute="trailing" constant="12" id="t2j-cJ-OZR"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cjL-6c-zCa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6S1-mb-ZmZ"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cjL-6c-zCa" secondAttribute="trailing" constant="104" id="aPT-64-9l4"/>
+                    <constraint firstAttribute="bottom" secondItem="cjL-6c-zCa" secondAttribute="bottom" constant="8" id="gpL-YN-yJ6"/>
+                    <constraint firstItem="cjL-6c-zCa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ohx-DC-p8W"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgview" destination="cjL-6c-zCa" id="v1Y-P4-3kV"/>
+                <outlet property="contentLabel" destination="djv-PY-8tS" id="y83-gy-Fvw"/>
+            </connections>
+            <point key="canvasLocation" x="129.7709923664122" y="19.718309859154932"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

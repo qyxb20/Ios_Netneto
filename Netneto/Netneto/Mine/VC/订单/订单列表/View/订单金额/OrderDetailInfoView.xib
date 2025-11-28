@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OrderDetailInfoView">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="209"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mr-dv-Md4">
+                    <rect key="frame" x="17" y="8" width="0.0" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="9mk-Ee-gtn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.3058823645" green="0.61960786580000005" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Zc9-ik-kfL">
+                    <rect key="frame" x="0.0" y="33" width="393" height="176"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.85882353779999998" green="0.92549020049999997" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="0Mr-dv-Md4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="8cV-io-Xlc"/>
+                <constraint firstItem="Zc9-ik-kfL" firstAttribute="top" secondItem="0Mr-dv-Md4" secondAttribute="bottom" constant="9" id="MZ5-nw-0JF"/>
+                <constraint firstItem="Zc9-ik-kfL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="akc-7W-7oe"/>
+                <constraint firstAttribute="trailing" secondItem="Zc9-ik-kfL" secondAttribute="trailing" id="iHt-u4-d77"/>
+                <constraint firstItem="0Mr-dv-Md4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="17" id="ixh-bY-2Bx"/>
+                <constraint firstAttribute="bottom" secondItem="Zc9-ik-kfL" secondAttribute="bottom" id="pZK-yi-PVm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFormUIColor">
+                    <color key="value" red="0.3058823645" green="0.61960786580000005" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                    <real key="value" value="0.5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="tableView" destination="Zc9-ik-kfL" id="2TQ-jb-mrJ"/>
+                <outlet property="titleLabel" destination="0Mr-dv-Md4" id="cyk-rc-0ZU"/>
+            </connections>
+            <point key="canvasLocation" x="154.96183206106869" y="-225"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

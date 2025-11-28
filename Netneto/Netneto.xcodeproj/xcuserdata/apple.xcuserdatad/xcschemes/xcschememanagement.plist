@@ -7,7 +7,25 @@
 		<key>Netneto.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>38</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0FF1794B2C92D82600BEA69B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0FF179662C92D82900BEA69B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0FF179702C92D82900BEA69B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

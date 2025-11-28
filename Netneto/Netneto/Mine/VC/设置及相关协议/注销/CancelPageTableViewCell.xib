@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CancelPageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Dx-Iq-Apn">
+                        <rect key="frame" x="30" y="11" width="0.0" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="L9p-E0-fZ6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DwK-To-dpU">
+                        <rect key="frame" x="276" y="11" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="SSE-fl-4nI"/>
+                            <constraint firstAttribute="height" constant="16" id="gZk-gp-dKr"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" backgroundImage="椭圆 7"/>
+                        <state key="selected" backgroundImage="组合 132"/>
+                        <connections>
+                            <action selector="choseBtnClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ZeY-2h-wKE"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5CF-GF-pZy">
+                        <rect key="frame" x="16" y="37" width="288" height="1"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="DCv-d0-jvt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4Dx-Iq-Apn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="8pr-0P-olA"/>
+                    <constraint firstAttribute="trailing" secondItem="DwK-To-dpU" secondAttribute="trailing" constant="28" id="9Ja-D3-xSa"/>
+                    <constraint firstItem="5CF-GF-pZy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Ikl-Q1-Z4T"/>
+                    <constraint firstAttribute="trailing" secondItem="5CF-GF-pZy" secondAttribute="trailing" constant="16" id="IqN-8y-EYH"/>
+                    <constraint firstItem="DwK-To-dpU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="JI2-DQ-HLz"/>
+                    <constraint firstAttribute="bottom" secondItem="4Dx-Iq-Apn" secondAttribute="bottom" constant="11" id="JR9-0V-8vt"/>
+                    <constraint firstAttribute="bottom" secondItem="5CF-GF-pZy" secondAttribute="bottom" id="NFe-cL-XyW"/>
+                    <constraint firstAttribute="bottom" secondItem="DwK-To-dpU" secondAttribute="bottom" constant="11" id="atz-c1-bLB"/>
+                    <constraint firstItem="4Dx-Iq-Apn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="qbW-hc-Eoa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="choseBtn" destination="DwK-To-dpU" id="Xqi-7d-uXr"/>
+                <outlet property="titleLabel" destination="4Dx-Iq-Apn" id="yBN-Xb-U1J"/>
+            </connections>
+            <point key="canvasLocation" x="67" y="20"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="椭圆 7" width="16" height="16"/>
+        <image name="组合 132" width="16" height="16"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
