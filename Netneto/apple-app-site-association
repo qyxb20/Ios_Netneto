@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "MR7PRB2YBH.netneto.co.jp",
+        "paths": [
+          "/oauth/callback/line*"
+        ]
+      }
+    ]
+  }
+}
+

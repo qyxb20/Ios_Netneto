@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>line.login</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>line3rdp.2008407504</string>
+			</array>
+		</dict>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>lineauth</string>
+		<string>line</string>
+	</array>
+	<key>LineChannelID</key>
+	<string>2008407504</string>
+	<key>LineUniversalLinkURL</key>
+	<string>https://netneto.co.jp/oauth/callback/line</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array/>
+</dict>
+</plist>

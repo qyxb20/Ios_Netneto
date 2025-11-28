@@ -1,0 +1,4 @@
+#pod 'QKeyboardEmotionView', :path => '../'
+pod 'LineSDK', '~> 5.10'
+#pod 'QKeyboardEmotionView', :path => '../'
+end

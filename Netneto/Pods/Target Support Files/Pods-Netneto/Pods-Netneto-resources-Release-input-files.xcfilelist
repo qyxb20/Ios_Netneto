@@ -1,0 +1,17 @@
+${PODS_ROOT}/Target Support Files/Pods-Netneto/Pods-Netneto-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/BRPickerView/BRPickerView.Privacy.bundle
+${PODS_ROOT}/BRPickerView/BRPickerView/Core/BRPickerView.bundle
+${PODS_ROOT}/BRPickerView/BRPickerView/Deprecated/AddressPickerView/BRAddressPickerView.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager/IQKeyboardManager.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/JXCategoryView/JXCategoryView.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/JXPagingView/JXPagerView.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/LineSDKSwift/LineSDK.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/MJExtension/MJExtension.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.Privacy.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/Protobuf/Protobuf_Privacy.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.bundle
+${PODS_ROOT}/SJBaseVideoPlayer/SJBaseVideoPlayer/ResourceLoader/SJBaseVideoPlayerResources.bundle
+${PODS_ROOT}/SJVideoPlayer/SJVideoPlayer/ResourceLoader/SJVideoPlayer.bundle
+${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle
+${PODS_ROOT}/ZYQAssetPickerController/ZYQAssetPickerController/ZYQAssetPicker.Bundle
